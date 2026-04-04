@@ -1,0 +1,390 @@
+<!-- new-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VaultofCodes - Best Coding Resources at Your Fingertips</title>
+  <!-- favicon -->
+  <link rel="icon" type="image/webp" href="vaultof codes icon.webp">
+  <meta name="description"
+    content="Empowering students to build real, job-ready skills through live training, hands-on projects, and certified internships. Join 30,000+ learners with VaultofCodes.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <img src="vaultof codes icon.webp" alt="VaultofCodes Logo" class="logo">
+        <span class="brand-text">VaultofCodes</span>
+      </div>
+
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#internship" class="nav-link">Internship</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <button class="login-btn" onclick="openLoginModal()">Login</button>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <h1 class="hero-title">Welcome to Vault of Codes</h1>
+        <p class="hero-subtitle">Find the best coding resources at your fingertips</p>
+        <button class="explore-btn" onclick="scrollToSection('about')">Explore</button>
+      </div>
+      <div class="hero-image">
+        <img src="./side img.png" alt="Coding Resources" class="hero-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">Who We Are & What We Do</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <div class="about-badge">
+            <img src="./vaultof codes icon.webp" alt="VaultofCodes" class="about-logo">
+            <div class="badge-text">
+              <h3>VaultofCodes</h3>
+              <p>Coding</p>
+              <p>Google Education Partner</p>
+              <p>4+ years' experience</p>
+            </div>
+          </div>
+          <p class="about-description">
+            VaultofCodes is a rapidly growing edtech startup empowering students to build real, job-ready skills through
+            live training, hands-on projects, and certified internships.
+          </p>
+          <p class="about-description">
+            Recognized as one of India's fastest-growing coding communities, we've earned the trust of 30,000+ learners
+            across the country. We're proud to be a Google for Education Partner, officially listed on AICTE's National
+            Internship Portal and Internshala, and recently awarded Best EdTech Startup 2024.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-item">
+            <h3>10+</h3>
+            <p>Courses</p>
+          </div>
+          <div class="stat-item">
+            <h3>30,000+</h3>
+            <p>Active Students</p>
+          </div>
+          <div class="stat-item">
+            <h3>4+</h3>
+            <p>Years Experience</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="team">
+    <div class="container">
+      <h2 class="section-title">Our Team</h2>
+      <p class="section-subtitle">A team of highly qualified professionals</p>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-image">
+            <img src="./team-pratiksha-CbyYN_ja.png" alt="Pratiksha Dhavale">
+          </div>
+          <h3>Pratiksha Dhavale</h3>
+          <p class="team-role">Tech Trainer</p>
+          <p class="team-experience">5+ years of experience</p>
+          <p class="team-skills">WebDev, Python, Java</p>
+        </div>
+        <div class="team-card">
+          <div class="team-image">
+            <img src="./team-anmol-6zw83WZs.png" alt="Anmoldeep Singh">
+          </div>
+          <h3>Anmoldeep Singh</h3>
+          <p class="team-role">Training Associate</p>
+          <p class="team-experience">2+ years of experience</p>
+          <p class="team-skills">AI & PE, JAVA</p>
+        </div>
+        <div class="team-card">
+          <div class="team-image">
+            <img src="./team-varshita-CM7C1U0f.png" alt="Varshita Singh">
+          </div>
+          <h3>Varshita Singh</h3>
+          <p class="team-role">HR Manager</p>
+          <p class="team-experience">2+ years of experience</p>
+          <p class="team-skills">Human Resources</p>
+        </div>
+        <div class="team-card">
+          <div class="team-image">
+            <img src="./team-ananya-BAejE36D.png" alt="Ananya Jain">
+          </div>
+          <h3>Ananya Jain</h3>
+          <p class="team-role">HR Intern</p>
+          <p class="team-experience">MBA</p>
+          <p class="team-skills">Human Resources</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2 class="section-title">Testimonials</h2>
+      <p class="section-subtitle">What our students say about us</p>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"VaultofCodes transformed my coding journey. The hands-on projects and live training made learning so
+              much easier!"</p>
+            <div class="testimonial-author">
+              <h4>Rahul Sharma</h4>
+              <p>Web Developer</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"The internship program was incredible. I got real-world experience and landed my dream job!"</p>
+            <div class="testimonial-author">
+              <h4>Priya Patel</h4>
+              <p>Python Developer</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"Best coding community I've ever been part of. The mentors are amazing and always helpful!"</p>
+            <div class="testimonial-author">
+              <h4>Arjun Kumar</h4>
+              <p>AI Engineer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Internship Section -->
+  <section id="internship" class="internship">
+    <div class="container">
+      <h2 class="section-title">VaultofCodes Internship & Training Batch</h2>
+      <div class="internship-content">
+        <div class="internship-info">
+          <h3>We are hosting a live session on Google Meet to explain all the details of the program</h3>
+          <ul class="internship-features">
+            <li>✅ Batches & Enrollment Process</li>
+            <li>✅ Internship Requirements</li>
+            <li>✅ Offer Letters & Certificate Criteria</li>
+            <li>✅ Free Career Consultation & Guidance</li>
+            <li>✅ Live Q&A – Ask us anything!</li>
+          </ul>
+        </div>
+        <div class="internship-steps">
+          <h3>How to Join!</h3>
+          <div class="steps-grid">
+            <div class="step-card">
+              <div class="step-number">01</div>
+              <h4>Register Below✅</h4>
+              <p>Fill the registration form with accurate details to secure your spot in the live session!</p>
+            </div>
+            <div class="step-card">
+              <div class="step-number">02</div>
+              <h4>Join the WhatsApp Community</h4>
+              <p>After submitting the form, you'll see a button to join our official WhatsApp community.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-number">03</div>
+              <h4>Check Your Email</h4>
+              <p>You'll receive a confirmation mail with all the instructions and session details.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-number">04</div>
+              <h4>🎯Join the Live Session</h4>
+              <p>Be ready to join the Orientation live meeting sharp at the mentioned time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="register-section">
+          <button class="register-btn" onclick="openRegisterModal()">Register Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <h2 class="section-title">FAQs</h2>
+      <p class="section-subtitle">Top Queries</p>
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            <h3>Who is this session for?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>This session is for students, freshers, and beginners interested in Web Development, Python, or AI tools,
+              and looking for practical training with internship opportunities.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            <h3>Will I receive a certificate?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, you will receive a certificate upon successful completion of the internship program.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            <h3>Do I need any prior coding experience?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>No, our programs are designed for beginners. We start from the basics and gradually build up your skills.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            <h3>What are the program durations and schedules?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Program durations vary from 1-3 months depending on the course. We offer flexible timing with both
+              weekday and weekend batches.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            <h3>What if I face any technical problem or query?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>We have a dedicated support team available 24/7 to help you with any technical issues or queries you
+              might have.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p>Ready to start your coding journey? Contact us today!</p>
+          <div class="social-links">
+            <a href="https://youtube.com/@vaultofcodes" class="social-link youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://linkedin.com/company/vaultofcodes" class="social-link linkedin">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://instagram.com/vaultofcodes" class="social-link instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>VaultofCodes</h3>
+          <p>Empowering students to build real, job-ready skills through live training, hands-on projects, and certified
+            internships.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#internship">Internship</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Social Media</h3>
+          <div class="social-links">
+            <a href="https://youtube.com/@vaultofcodes" class="social-link">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://linkedin.com/company/vaultofcodes" class="social-link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://instagram.com/vaultofcodes" class="social-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 VaultofCodes. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Login Modal -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeLoginModal()">&times;</span>
+      <h2>Login</h2>
+      <form id="loginForm">
+        <input type="text" id="loginName" placeholder="Your Name" required>
+        <input type="tel" id="loginPhone" placeholder="Phone Number" required>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Register Modal -->
+  <div id="registerModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeRegisterModal()">&times;</span>
+      <h2>Register for Internship</h2>
+      <form id="registerForm">
+        <input type="text" id="registerName" placeholder="Your Name" required>
+        <input type="email" id="registerEmail" placeholder="Email" required>
+        <input type="tel" id="registerPhone" placeholder="Phone Number" required>
+        <select id="registerCourse" required>
+          <option value="">Select Course</option>
+          <option value="web-development">Web Development</option>
+          <option value="python">Python Programming</option>
+          <option value="java">Java Programming</option>
+          <option value="ai">AI & Prompt Engineering</option>
+        </select>
+        <button type="submit">Register Now</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
