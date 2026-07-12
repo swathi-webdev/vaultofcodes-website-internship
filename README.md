@@ -19,7 +19,7 @@ This project was created as part of my **VaultofCodes Web Development Internship
 - Mobile-friendly layout
 - Clean and organized code
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3
@@ -27,7 +27,7 @@ This project was created as part of my **VaultofCodes Web Development Internship
 - Git
 - GitHub
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 VaultofCodes-Website/
@@ -52,13 +52,7 @@ During this project, I gained experience in:
 - Improving UI/UX design
 - Organizing frontend project structure
 
-## 📌 Future Improvements
 
-- Add dark mode
-- Backend integration
-- Contact form validation
-- Add animations
-- Improve accessibility and performance
 
 ## 👩‍💻 Author
 
